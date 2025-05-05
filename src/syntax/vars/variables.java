@@ -32,5 +32,15 @@ public class variables {
 
         var somevar = 10L;
 
+        short varForCasting = nnn;
+        System.out.println("The casted variable: "+varForCasting);
+
+        int intVarForCasting = 257;
+        byte byteVarForCasting = (byte)intVarForCasting; //в скобках, потому что раньше шорт было больше чем байт а сейчас наоборот
+        System.out.println("The byte variable after casting: "+byteVarForCasting);
+
+        var doubleVar = 4.89;
+        int intCastDouble = (int)doubleVar;
+        System.out.println("The double variable after casting: "+intCastDouble);
     }
 }
