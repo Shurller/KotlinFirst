@@ -12,6 +12,7 @@ public class about_scanner {
         int age = sc.nextInt();
 
         System.out.println("name: " + name + ", age: " + age);
+        sc.close();
     }
 
 }
